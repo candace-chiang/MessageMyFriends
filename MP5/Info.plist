@@ -54,5 +54,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SourceSansPro-Regular.otf</string>
+		<string>SourceSansPro-Bold.otf</string>
+		<string>SourceCodePro-Regular.otf</string>
+		<string>SourceCodePro-Bold.otf</string>
+	</array>
 </dict>
 </plist>

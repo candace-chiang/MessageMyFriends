@@ -8,5 +8,8 @@ target 'MP5' do
   # Pods for MP5
   pod 'Firebase/Core'
   pod 'Firebase/DynamicLinks'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
 
 end

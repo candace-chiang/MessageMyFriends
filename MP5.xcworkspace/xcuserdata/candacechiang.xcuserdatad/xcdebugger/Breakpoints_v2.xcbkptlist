@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MP5/Controllers/LogInViewController/LogInViewController.swift"
+            timestampString = "574146325.377653"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "logInAttempt(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MP5.LogInViewController.logInAttempt(__C.UIButton) -&gt; ()"
+                  moduleName = "MP5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/candacechiang/Documents/Other/MDB/MDB%20Training/MP5/MP5/Controllers/LogInViewController/LogInViewController.swift"
+                  timestampString = "574144281.541616"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1466">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MP5.LogInViewController.logInAttempt(__C.UIButton) -&gt; ()"
+                  moduleName = "MP5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/candacechiang/Documents/Other/MDB/MDB%20Training/MP5/MP5/Controllers/LogInViewController/LogInViewController.swift"
+                  timestampString = "574144281.5721591"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "45">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

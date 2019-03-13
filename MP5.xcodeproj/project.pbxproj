@@ -7,9 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		422E705D2238798A00E31351 /* LaunchVC - UISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E705C2238798A00E31351 /* LaunchVC - UISetup.swift */; };
+		422E705F223879DC00E31351 /* hexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E705E223879DC00E31351 /* hexString.swift */; };
+		422E706122387A1900E31351 /* FirebaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E706022387A1900E31351 /* FirebaseAPI.swift */; };
+		422E70822238827000E31351 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E70812238827000E31351 /* LogInViewController.swift */; };
+		422E70842238828300E31351 /* LogInVC - UISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E70832238828300E31351 /* LogInVC - UISetup.swift */; };
+		422E708C2238869900E31351 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E708B2238869900E31351 /* HomeViewController.swift */; };
+		422E708E223886A900E31351 /* HomeVC - UISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E708D223886A900E31351 /* HomeVC - UISetup.swift */; };
+		422E7090223888BF00E31351 /* SourceCodePro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 422E708F223888BF00E31351 /* SourceCodePro-Bold.otf */; };
+		422E7092223888C900E31351 /* SourceCodePro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 422E7091223888C900E31351 /* SourceCodePro-Regular.otf */; };
+		422E7094223888D500E31351 /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 422E7093223888D500E31351 /* SourceSansPro-Bold.otf */; };
+		422E7096223888FB00E31351 /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 422E7095223888FB00E31351 /* SourceSansPro-Regular.otf */; };
+		422E709822388A0F00E31351 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E709722388A0F00E31351 /* Utils.swift */; };
+		422E709B22388EC900E31351 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E709A22388EC900E31351 /* ConfigViewController.swift */; };
+		422E709D2238A83500E31351 /* ConfigVC - UISetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E709C2238A83500E31351 /* ConfigVC - UISetUp.swift */; };
 		5481BD98CF1DB102A1813DB6 /* Pods_MP5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523C25216276E8749E849D6A /* Pods_MP5.framework */; };
 		EF6F64852236C9B600B5200B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6F64842236C9B600B5200B /* AppDelegate.swift */; };
-		EF6F64872236C9B600B5200B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6F64862236C9B600B5200B /* ViewController.swift */; };
+		EF6F64872236C9B600B5200B /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6F64862236C9B600B5200B /* LaunchViewController.swift */; };
 		EF6F648A2236C9B600B5200B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6F64882236C9B600B5200B /* Main.storyboard */; };
 		EF6F648C2236C9B800B5200B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6F648B2236C9B800B5200B /* Assets.xcassets */; };
 		EF6F648F2236C9B800B5200B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6F648D2236C9B800B5200B /* LaunchScreen.storyboard */; };
@@ -17,12 +31,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		422E705C2238798A00E31351 /* LaunchVC - UISetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LaunchVC - UISetup.swift"; sourceTree = "<group>"; };
+		422E705E223879DC00E31351 /* hexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hexString.swift; sourceTree = "<group>"; };
+		422E706022387A1900E31351 /* FirebaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAPI.swift; sourceTree = "<group>"; };
+		422E70812238827000E31351 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		422E70832238828300E31351 /* LogInVC - UISetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LogInVC - UISetup.swift"; sourceTree = "<group>"; };
+		422E708B2238869900E31351 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		422E708D223886A900E31351 /* HomeVC - UISetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeVC - UISetup.swift"; sourceTree = "<group>"; };
+		422E708F223888BF00E31351 /* SourceCodePro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Bold.otf"; sourceTree = "<group>"; };
+		422E7091223888C900E31351 /* SourceCodePro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Regular.otf"; sourceTree = "<group>"; };
+		422E7093223888D500E31351 /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
+		422E7095223888FB00E31351 /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
+		422E709722388A0F00E31351 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		422E709A22388EC900E31351 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		422E709C2238A83500E31351 /* ConfigVC - UISetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConfigVC - UISetUp.swift"; sourceTree = "<group>"; };
 		4C5404E2AE04308CD1D63A0E /* Pods-MP5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MP5.debug.xcconfig"; path = "Target Support Files/Pods-MP5/Pods-MP5.debug.xcconfig"; sourceTree = "<group>"; };
 		523C25216276E8749E849D6A /* Pods_MP5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MP5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B0C66ABED6EE7D869B3D31 /* Pods-MP5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MP5.release.xcconfig"; path = "Target Support Files/Pods-MP5/Pods-MP5.release.xcconfig"; sourceTree = "<group>"; };
 		EF6F64812236C9B600B5200B /* MP5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MP5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6F64842236C9B600B5200B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF6F64862236C9B600B5200B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF6F64862236C9B600B5200B /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		EF6F64892236C9B600B5200B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF6F648B2236C9B800B5200B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF6F648E2236C9B800B5200B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +77,103 @@
 				523C25216276E8749E849D6A /* Pods_MP5.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		422E70542238786400E31351 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		422E70552238787900E31351 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		422E70562238788000E31351 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				422E709922388EB800E31351 /* ConfigViewController */,
+				422E708A2238868500E31351 /* HomeViewController */,
+				422E70802238824F00E31351 /* LogInViewController */,
+				422E705B2238792E00E31351 /* LaunchViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		422E70572238788800E31351 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				422E709722388A0F00E31351 /* Utils.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		422E70582238788D00E31351 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				422E7095223888FB00E31351 /* SourceSansPro-Regular.otf */,
+				422E7093223888D500E31351 /* SourceSansPro-Bold.otf */,
+				422E7091223888C900E31351 /* SourceCodePro-Regular.otf */,
+				422E708F223888BF00E31351 /* SourceCodePro-Bold.otf */,
+				422E705E223879DC00E31351 /* hexString.swift */,
+				EF6F648B2236C9B800B5200B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		422E70592238789300E31351 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				422E706022387A1900E31351 /* FirebaseAPI.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		422E705A2238789D00E31351 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		422E705B2238792E00E31351 /* LaunchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EF6F64862236C9B600B5200B /* LaunchViewController.swift */,
+				422E705C2238798A00E31351 /* LaunchVC - UISetup.swift */,
+			);
+			path = LaunchViewController;
+			sourceTree = "<group>";
+		};
+		422E70802238824F00E31351 /* LogInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				422E70812238827000E31351 /* LogInViewController.swift */,
+				422E70832238828300E31351 /* LogInVC - UISetup.swift */,
+			);
+			path = LogInViewController;
+			sourceTree = "<group>";
+		};
+		422E708A2238868500E31351 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				422E708B2238869900E31351 /* HomeViewController.swift */,
+				422E708D223886A900E31351 /* HomeVC - UISetup.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		422E709922388EB800E31351 /* ConfigViewController */ = {
+			isa = PBXGroup;
+			children = (
+				422E709A22388EC900E31351 /* ConfigViewController.swift */,
+				422E709C2238A83500E31351 /* ConfigVC - UISetUp.swift */,
+			);
+			path = ConfigViewController;
 			sourceTree = "<group>";
 		};
 		AD5E394B333847F3513CDBE5 /* Pods */ = {
@@ -81,12 +206,17 @@
 		EF6F64832236C9B600B5200B /* MP5 */ = {
 			isa = PBXGroup;
 			children = (
+				422E70542238786400E31351 /* Models */,
+				422E70552238787900E31351 /* Views */,
+				422E70562238788000E31351 /* Controllers */,
+				422E70572238788800E31351 /* Helpers */,
+				422E705A2238789D00E31351 /* Delegates */,
+				422E70592238789300E31351 /* Clients */,
+				422E70582238788D00E31351 /* Resources */,
 				EFC3FD022236E6E500F3F0A8 /* MP5.entitlements */,
 				EF6F64962236CB9000B5200B /* GoogleService-Info.plist */,
 				EF6F64842236C9B600B5200B /* AppDelegate.swift */,
-				EF6F64862236C9B600B5200B /* ViewController.swift */,
 				EF6F64882236C9B600B5200B /* Main.storyboard */,
-				EF6F648B2236C9B800B5200B /* Assets.xcassets */,
 				EF6F648D2236C9B800B5200B /* LaunchScreen.storyboard */,
 				EF6F64902236C9B800B5200B /* Info.plist */,
 			);
@@ -158,9 +288,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				422E7090223888BF00E31351 /* SourceCodePro-Bold.otf in Resources */,
+				422E7094223888D500E31351 /* SourceSansPro-Bold.otf in Resources */,
 				EF6F648F2236C9B800B5200B /* LaunchScreen.storyboard in Resources */,
 				EF6F648C2236C9B800B5200B /* Assets.xcassets in Resources */,
 				EF6F648A2236C9B600B5200B /* Main.storyboard in Resources */,
+				422E7092223888C900E31351 /* SourceCodePro-Regular.otf in Resources */,
+				422E7096223888FB00E31351 /* SourceSansPro-Regular.otf in Resources */,
 				EF6F64972236CB9000B5200B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,14 +311,18 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MP5/Pods-MP5-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +359,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF6F64872236C9B600B5200B /* ViewController.swift in Sources */,
+				EF6F64872236C9B600B5200B /* LaunchViewController.swift in Sources */,
+				422E708E223886A900E31351 /* HomeVC - UISetup.swift in Sources */,
+				422E705D2238798A00E31351 /* LaunchVC - UISetup.swift in Sources */,
+				422E709B22388EC900E31351 /* ConfigViewController.swift in Sources */,
+				422E70822238827000E31351 /* LogInViewController.swift in Sources */,
+				422E708C2238869900E31351 /* HomeViewController.swift in Sources */,
+				422E709822388A0F00E31351 /* Utils.swift in Sources */,
+				422E705F223879DC00E31351 /* hexString.swift in Sources */,
+				422E706122387A1900E31351 /* FirebaseAPI.swift in Sources */,
+				422E70842238828300E31351 /* LogInVC - UISetup.swift in Sources */,
+				422E709D2238A83500E31351 /* ConfigVC - UISetUp.swift in Sources */,
 				EF6F64852236C9B600B5200B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
