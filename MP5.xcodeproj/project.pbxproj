@@ -21,13 +21,15 @@
 		422E709822388A0F00E31351 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E709722388A0F00E31351 /* Utils.swift */; };
 		422E709B22388EC900E31351 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E709A22388EC900E31351 /* ConfigViewController.swift */; };
 		422E709D2238A83500E31351 /* ConfigVC - UISetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E709C2238A83500E31351 /* ConfigVC - UISetUp.swift */; };
+		422E709F2238CC0A00E31351 /* ConfigVC - Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E709E2238CC0A00E31351 /* ConfigVC - Image.swift */; };
+		422E70A12238D69100E31351 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 422E70A02238D69100E31351 /* GoogleService-Info.plist */; };
+		422E70A32238D9C000E31351 /* AppDelegate - Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E70A22238D9C000E31351 /* AppDelegate - Link.swift */; };
 		5481BD98CF1DB102A1813DB6 /* Pods_MP5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523C25216276E8749E849D6A /* Pods_MP5.framework */; };
 		EF6F64852236C9B600B5200B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6F64842236C9B600B5200B /* AppDelegate.swift */; };
 		EF6F64872236C9B600B5200B /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6F64862236C9B600B5200B /* LaunchViewController.swift */; };
 		EF6F648A2236C9B600B5200B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6F64882236C9B600B5200B /* Main.storyboard */; };
 		EF6F648C2236C9B800B5200B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6F648B2236C9B800B5200B /* Assets.xcassets */; };
 		EF6F648F2236C9B800B5200B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6F648D2236C9B800B5200B /* LaunchScreen.storyboard */; };
-		EF6F64972236CB9000B5200B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF6F64962236CB9000B5200B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,9 @@
 		422E709722388A0F00E31351 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		422E709A22388EC900E31351 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
 		422E709C2238A83500E31351 /* ConfigVC - UISetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConfigVC - UISetUp.swift"; sourceTree = "<group>"; };
+		422E709E2238CC0A00E31351 /* ConfigVC - Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConfigVC - Image.swift"; sourceTree = "<group>"; };
+		422E70A02238D69100E31351 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		422E70A22238D9C000E31351 /* AppDelegate - Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate - Link.swift"; sourceTree = "<group>"; };
 		4C5404E2AE04308CD1D63A0E /* Pods-MP5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MP5.debug.xcconfig"; path = "Target Support Files/Pods-MP5/Pods-MP5.debug.xcconfig"; sourceTree = "<group>"; };
 		523C25216276E8749E849D6A /* Pods_MP5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MP5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B0C66ABED6EE7D869B3D31 /* Pods-MP5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MP5.release.xcconfig"; path = "Target Support Files/Pods-MP5/Pods-MP5.release.xcconfig"; sourceTree = "<group>"; };
@@ -55,7 +60,6 @@
 		EF6F648B2236C9B800B5200B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF6F648E2236C9B800B5200B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF6F64902236C9B800B5200B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF6F64962236CB9000B5200B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EFC3FD022236E6E500F3F0A8 /* MP5.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MP5.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +140,8 @@
 		422E705A2238789D00E31351 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
+				EF6F64842236C9B600B5200B /* AppDelegate.swift */,
+				422E70A22238D9C000E31351 /* AppDelegate - Link.swift */,
 			);
 			path = Delegates;
 			sourceTree = "<group>";
@@ -172,6 +178,7 @@
 			children = (
 				422E709A22388EC900E31351 /* ConfigViewController.swift */,
 				422E709C2238A83500E31351 /* ConfigVC - UISetUp.swift */,
+				422E709E2238CC0A00E31351 /* ConfigVC - Image.swift */,
 			);
 			path = ConfigViewController;
 			sourceTree = "<group>";
@@ -214,8 +221,7 @@
 				422E70592238789300E31351 /* Clients */,
 				422E70582238788D00E31351 /* Resources */,
 				EFC3FD022236E6E500F3F0A8 /* MP5.entitlements */,
-				EF6F64962236CB9000B5200B /* GoogleService-Info.plist */,
-				EF6F64842236C9B600B5200B /* AppDelegate.swift */,
+				422E70A02238D69100E31351 /* GoogleService-Info.plist */,
 				EF6F64882236C9B600B5200B /* Main.storyboard */,
 				EF6F648D2236C9B800B5200B /* LaunchScreen.storyboard */,
 				EF6F64902236C9B800B5200B /* Info.plist */,
@@ -289,13 +295,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				422E7090223888BF00E31351 /* SourceCodePro-Bold.otf in Resources */,
+				422E70A12238D69100E31351 /* GoogleService-Info.plist in Resources */,
 				422E7094223888D500E31351 /* SourceSansPro-Bold.otf in Resources */,
 				EF6F648F2236C9B800B5200B /* LaunchScreen.storyboard in Resources */,
 				EF6F648C2236C9B800B5200B /* Assets.xcassets in Resources */,
 				EF6F648A2236C9B600B5200B /* Main.storyboard in Resources */,
 				422E7092223888C900E31351 /* SourceCodePro-Regular.otf in Resources */,
 				422E7096223888FB00E31351 /* SourceSansPro-Regular.otf in Resources */,
-				EF6F64972236CB9000B5200B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +367,7 @@
 			files = (
 				EF6F64872236C9B600B5200B /* LaunchViewController.swift in Sources */,
 				422E708E223886A900E31351 /* HomeVC - UISetup.swift in Sources */,
+				422E70A32238D9C000E31351 /* AppDelegate - Link.swift in Sources */,
 				422E705D2238798A00E31351 /* LaunchVC - UISetup.swift in Sources */,
 				422E709B22388EC900E31351 /* ConfigViewController.swift in Sources */,
 				422E70822238827000E31351 /* LogInViewController.swift in Sources */,
@@ -368,6 +375,7 @@
 				422E709822388A0F00E31351 /* Utils.swift in Sources */,
 				422E705F223879DC00E31351 /* hexString.swift in Sources */,
 				422E706122387A1900E31351 /* FirebaseAPI.swift in Sources */,
+				422E709F2238CC0A00E31351 /* ConfigVC - Image.swift in Sources */,
 				422E70842238828300E31351 /* LogInVC - UISetup.swift in Sources */,
 				422E709D2238A83500E31351 /* ConfigVC - UISetUp.swift in Sources */,
 				EF6F64852236C9B600B5200B /* AppDelegate.swift in Sources */,

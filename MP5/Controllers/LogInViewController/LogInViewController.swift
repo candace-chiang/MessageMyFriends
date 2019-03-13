@@ -68,7 +68,7 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
                 //save the email locally if they open the link on the same device
                 UserDefaults.standard.set(self.email, forKey: "Email")
                 self.displayAlert(title: "Success", message: "Check your email for the link.")
-                //self.performSegue(withIdentifier: "toConfig", sender: self)
+                self.performSegue(withIdentifier: "toConfig", sender: self)
             }
         }
     }

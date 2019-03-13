@@ -8,24 +8,48 @@
 
 import UIKit
 
-class ConfigViewController: UIViewController {
+class ConfigViewController: UIViewController, UITextFieldDelegate {
     
+    var imageView: UIImageView!
+    var imagePicker: UIButton!
     var firstNameField : UITextField!
     var lastNameField : UITextField!
-    var emailField : UITextField!
-    var photo : UIImage!
     
-    var name = ""
+    var chosenImage: UIImage!
+    
+    var firstName = ""
+    var lastName = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setUpImagePicker()
         configSetUp()
 
         // Do any additional setup after loading the view.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        firstNameField.delegate = self
+        lastNameField.delegate = self
+    }
+    
+    //dismiss keyboard when you press somewhere else
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    //dismiss keyboard when you press return
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
     @objc func firstNameEntered(_ sender: UITextField) {
-        name = sender.text!
+        firstName = sender.text!
+    }
+    
+    @objc func lastNameEntered(_ sender: UITextField) {
+        lastName = sender.text!
     }
     
 
