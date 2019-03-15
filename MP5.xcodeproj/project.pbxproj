@@ -20,10 +20,20 @@
 		422E7096223888FB00E31351 /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 422E7095223888FB00E31351 /* SourceSansPro-Regular.otf */; };
 		422E709822388A0F00E31351 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E709722388A0F00E31351 /* Utils.swift */; };
 		422E709B22388EC900E31351 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E709A22388EC900E31351 /* ConfigViewController.swift */; };
-		422E709D2238A83500E31351 /* ConfigVC - UISetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E709C2238A83500E31351 /* ConfigVC - UISetUp.swift */; };
+		422E709D2238A83500E31351 /* ConfigVC - UISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E709C2238A83500E31351 /* ConfigVC - UISetup.swift */; };
 		422E709F2238CC0A00E31351 /* ConfigVC - Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E709E2238CC0A00E31351 /* ConfigVC - Image.swift */; };
 		422E70A12238D69100E31351 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 422E70A02238D69100E31351 /* GoogleService-Info.plist */; };
 		422E70A32238D9C000E31351 /* AppDelegate - Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E70A22238D9C000E31351 /* AppDelegate - Link.swift */; };
+		42EEF852223A04650093B00E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EEF851223A04650093B00E /* User.swift */; };
+		42EEF854223A30580093B00E /* HomeVC - Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EEF853223A30580093B00E /* HomeVC - Map.swift */; };
+		42EEF856223A6BD60093B00E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EEF855223A6BD60093B00E /* MapKit.framework */; };
+		42EEF858223A6C120093B00E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EEF857223A6C120093B00E /* CoreLocation.framework */; };
+		42EEF85B223B224B0093B00E /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EEF85A223B224B0093B00E /* AddViewController.swift */; };
+		42EEF85D223B22690093B00E /* AddVC - UISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EEF85C223B22690093B00E /* AddVC - UISetup.swift */; };
+		42EEF85F223B25E60093B00E /* ConfigVC - Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EEF85E223B25E50093B00E /* ConfigVC - Firebase.swift */; };
+		42EEF861223B27450093B00E /* AddVC - Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EEF860223B27450093B00E /* AddVC - Table.swift */; };
+		42EEF863223B27B50093B00E /* AddTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EEF862223B27B50093B00E /* AddTableViewCell.swift */; };
+		42EEF865223B28060093B00E /* AddVC - Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EEF864223B28060093B00E /* AddVC - Firebase.swift */; };
 		5481BD98CF1DB102A1813DB6 /* Pods_MP5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523C25216276E8749E849D6A /* Pods_MP5.framework */; };
 		EF6F64852236C9B600B5200B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6F64842236C9B600B5200B /* AppDelegate.swift */; };
 		EF6F64872236C9B600B5200B /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6F64862236C9B600B5200B /* LaunchViewController.swift */; };
@@ -46,10 +56,20 @@
 		422E7095223888FB00E31351 /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
 		422E709722388A0F00E31351 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		422E709A22388EC900E31351 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
-		422E709C2238A83500E31351 /* ConfigVC - UISetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConfigVC - UISetUp.swift"; sourceTree = "<group>"; };
+		422E709C2238A83500E31351 /* ConfigVC - UISetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConfigVC - UISetup.swift"; sourceTree = "<group>"; };
 		422E709E2238CC0A00E31351 /* ConfigVC - Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConfigVC - Image.swift"; sourceTree = "<group>"; };
 		422E70A02238D69100E31351 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		422E70A22238D9C000E31351 /* AppDelegate - Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate - Link.swift"; sourceTree = "<group>"; };
+		42EEF851223A04650093B00E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		42EEF853223A30580093B00E /* HomeVC - Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeVC - Map.swift"; sourceTree = "<group>"; };
+		42EEF855223A6BD60093B00E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		42EEF857223A6C120093B00E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		42EEF85A223B224B0093B00E /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		42EEF85C223B22690093B00E /* AddVC - UISetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddVC - UISetup.swift"; sourceTree = "<group>"; };
+		42EEF85E223B25E50093B00E /* ConfigVC - Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConfigVC - Firebase.swift"; sourceTree = "<group>"; };
+		42EEF860223B27450093B00E /* AddVC - Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddVC - Table.swift"; sourceTree = "<group>"; };
+		42EEF862223B27B50093B00E /* AddTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTableViewCell.swift; sourceTree = "<group>"; };
+		42EEF864223B28060093B00E /* AddVC - Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddVC - Firebase.swift"; sourceTree = "<group>"; };
 		4C5404E2AE04308CD1D63A0E /* Pods-MP5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MP5.debug.xcconfig"; path = "Target Support Files/Pods-MP5/Pods-MP5.debug.xcconfig"; sourceTree = "<group>"; };
 		523C25216276E8749E849D6A /* Pods_MP5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MP5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B0C66ABED6EE7D869B3D31 /* Pods-MP5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MP5.release.xcconfig"; path = "Target Support Files/Pods-MP5/Pods-MP5.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42EEF858223A6C120093B00E /* CoreLocation.framework in Frameworks */,
+				42EEF856223A6BD60093B00E /* MapKit.framework in Frameworks */,
 				5481BD98CF1DB102A1813DB6 /* Pods_MP5.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,6 +100,8 @@
 		0DC5FC76AB793FC493A47FB4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				42EEF857223A6C120093B00E /* CoreLocation.framework */,
+				42EEF855223A6BD60093B00E /* MapKit.framework */,
 				523C25216276E8749E849D6A /* Pods_MP5.framework */,
 			);
 			name = Frameworks;
@@ -86,6 +110,7 @@
 		422E70542238786400E31351 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				42EEF851223A04650093B00E /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -93,6 +118,7 @@
 		422E70552238787900E31351 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				42EEF862223B27B50093B00E /* AddTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -100,6 +126,7 @@
 		422E70562238788000E31351 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				42EEF859223B22280093B00E /* AddViewController */,
 				422E709922388EB800E31351 /* ConfigViewController */,
 				422E708A2238868500E31351 /* HomeViewController */,
 				422E70802238824F00E31351 /* LogInViewController */,
@@ -169,6 +196,7 @@
 			children = (
 				422E708B2238869900E31351 /* HomeViewController.swift */,
 				422E708D223886A900E31351 /* HomeVC - UISetup.swift */,
+				42EEF853223A30580093B00E /* HomeVC - Map.swift */,
 			);
 			path = HomeViewController;
 			sourceTree = "<group>";
@@ -177,10 +205,22 @@
 			isa = PBXGroup;
 			children = (
 				422E709A22388EC900E31351 /* ConfigViewController.swift */,
-				422E709C2238A83500E31351 /* ConfigVC - UISetUp.swift */,
+				422E709C2238A83500E31351 /* ConfigVC - UISetup.swift */,
 				422E709E2238CC0A00E31351 /* ConfigVC - Image.swift */,
+				42EEF85E223B25E50093B00E /* ConfigVC - Firebase.swift */,
 			);
 			path = ConfigViewController;
+			sourceTree = "<group>";
+		};
+		42EEF859223B22280093B00E /* AddViewController */ = {
+			isa = PBXGroup;
+			children = (
+				42EEF85A223B224B0093B00E /* AddViewController.swift */,
+				42EEF85C223B22690093B00E /* AddVC - UISetup.swift */,
+				42EEF860223B27450093B00E /* AddVC - Table.swift */,
+				42EEF864223B28060093B00E /* AddVC - Firebase.swift */,
+			);
+			path = AddViewController;
 			sourceTree = "<group>";
 		};
 		AD5E394B333847F3513CDBE5 /* Pods */ = {
@@ -264,6 +304,9 @@
 					EF6F64802236C9B600B5200B = {
 						CreatedOnToolsVersion = 10.1;
 						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
 							com.apple.SafariKeychain = {
 								enabled = 1;
 							};
@@ -366,18 +409,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF6F64872236C9B600B5200B /* LaunchViewController.swift in Sources */,
+				42EEF861223B27450093B00E /* AddVC - Table.swift in Sources */,
 				422E708E223886A900E31351 /* HomeVC - UISetup.swift in Sources */,
 				422E70A32238D9C000E31351 /* AppDelegate - Link.swift in Sources */,
 				422E705D2238798A00E31351 /* LaunchVC - UISetup.swift in Sources */,
 				422E709B22388EC900E31351 /* ConfigViewController.swift in Sources */,
 				422E70822238827000E31351 /* LogInViewController.swift in Sources */,
+				42EEF865223B28060093B00E /* AddVC - Firebase.swift in Sources */,
 				422E708C2238869900E31351 /* HomeViewController.swift in Sources */,
+				42EEF85B223B224B0093B00E /* AddViewController.swift in Sources */,
+				42EEF863223B27B50093B00E /* AddTableViewCell.swift in Sources */,
 				422E709822388A0F00E31351 /* Utils.swift in Sources */,
+				42EEF852223A04650093B00E /* User.swift in Sources */,
 				422E705F223879DC00E31351 /* hexString.swift in Sources */,
+				42EEF85F223B25E60093B00E /* ConfigVC - Firebase.swift in Sources */,
+				42EEF854223A30580093B00E /* HomeVC - Map.swift in Sources */,
+				42EEF85D223B22690093B00E /* AddVC - UISetup.swift in Sources */,
 				422E706122387A1900E31351 /* FirebaseAPI.swift in Sources */,
 				422E709F2238CC0A00E31351 /* ConfigVC - Image.swift in Sources */,
 				422E70842238828300E31351 /* LogInVC - UISetup.swift in Sources */,
-				422E709D2238A83500E31351 /* ConfigVC - UISetUp.swift in Sources */,
+				422E709D2238A83500E31351 /* ConfigVC - UISetup.swift in Sources */,
 				EF6F64852236C9B600B5200B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -29,7 +29,13 @@ class LaunchViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         let _ = Timer.scheduledTimer(withTimeInterval: 2.0, repeats: false) { (timer) in
-            if Auth.auth().currentUser != nil {
+//            if Auth.auth().currentUser != nil {
+//                self.performSegue(withIdentifier: "toHome", sender: self)
+//            } else {
+//                self.performSegue(withIdentifier: "toLogin", sender: self)
+//            }
+            let email = UserDefaults.standard.string(forKey: "Email")
+            if email != nil {
                 self.performSegue(withIdentifier: "toHome", sender: self)
             } else {
                 self.performSegue(withIdentifier: "toLogin", sender: self)

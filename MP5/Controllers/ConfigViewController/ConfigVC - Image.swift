@@ -52,7 +52,7 @@ extension ConfigViewController: UIImagePickerControllerDelegate, UINavigationCon
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        let chosenImage = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
+        chosenImage = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
         imagePicker.setImage(chosenImage, for: .normal)
         imageView.removeFromSuperview()
         dismiss(animated:true, completion: nil)

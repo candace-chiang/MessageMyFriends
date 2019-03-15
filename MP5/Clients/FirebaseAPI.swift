@@ -11,5 +11,5 @@ import FirebaseDatabase
 import FirebaseAuth
 
 class FirebaseAPI {
-
+    
 }

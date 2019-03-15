@@ -15,7 +15,12 @@ class ConfigViewController: UIViewController, UITextFieldDelegate {
     var firstNameField : UITextField!
     var lastNameField : UITextField!
     
+    var userEmail: String!
+    
+    var setUpButton: UIButton!
+    
     var chosenImage: UIImage!
+    var id: String!
     
     var firstName = ""
     var lastName = ""
@@ -51,6 +56,23 @@ class ConfigViewController: UIViewController, UITextFieldDelegate {
     @objc func lastNameEntered(_ sender: UITextField) {
         lastName = sender.text!
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let navVC = segue.destination as! UINavigationController
+        let targetVC = navVC.viewControllers.first as! HomeViewController
+        let emptyFriends: [User: Bool] = [:]
+        targetVC.user = User(firstName: firstName, lastName: lastName, userImage: chosenImage, email: userEmail, UID: id, friends: emptyFriends)
+        //targetVC.userFirstName = firstName
+        //targetVC.userLastName = lastName
+        
+    }
+    
+    func displayAlert(title: String, message: String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Okay", style: .default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
+
     
 
     /*
