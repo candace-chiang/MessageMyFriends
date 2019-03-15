@@ -22,6 +22,7 @@ class HomeViewController: UIViewController, MKMapViewDelegate, CLLocationManager
     var userImageView: UIImageView!
     
     var locationManager: CLLocationManager!
+    var userLocation: CLLocation!
     
     var mapView:MKMapView!
     
