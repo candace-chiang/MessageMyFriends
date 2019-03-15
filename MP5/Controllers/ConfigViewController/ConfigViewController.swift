@@ -29,6 +29,8 @@ class ConfigViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         setUpImagePicker()
         configSetUp()
+        
+        setUpButton.isUserInteractionEnabled = true
 
         // Do any additional setup after loading the view.
     }
@@ -60,7 +62,7 @@ class ConfigViewController: UIViewController, UITextFieldDelegate {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let navVC = segue.destination as! UINavigationController
         let targetVC = navVC.viewControllers.first as! HomeViewController
-        let emptyFriends: [User: Bool] = [:]
+        let emptyFriends: [String: Bool] = [:]
         targetVC.user = User(firstName: firstName, lastName: lastName, userImage: chosenImage, email: userEmail, UID: id, friends: emptyFriends)
         //targetVC.userFirstName = firstName
         //targetVC.userLastName = lastName

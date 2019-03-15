@@ -30,13 +30,34 @@ extension AddViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         let tableCell = cell as! AddTableViewCell
-        let user = events[indexPath.row]
+        let user = users[indexPath.row]
         
+        tableCell.profileImage.image = user.userImage
+        tableCell.nameLabel.text = user.firstName + " " + user.lastName
+        if currUser.id == user.id{
+            tableCell.addFriend.text = "  Me"
+            tableCell.addFriend.backgroundColor = UIColor(hexString: "#FAAC58")
+        } else if Array(currUser.userFriends.keys).contains(user.id) {
+            tableCell.addFriend.text = "  Friend"
+            tableCell.addFriend.backgroundColor = UIColor(hexString: "#A9F5BC")
+        } else {
+            tableCell.addFriend.text = "  Add as friend!"
+            tableCell.addFriend.backgroundColor = UIColor(hexString: "#D8D8D8")
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
+        let user = users[indexPath.row]
+        if currUser.id == user.id ||  Array(currUser.userFriends.keys).contains(user.id) {
+            return nil
+        } else {
+            return indexPath
+        }
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //selected = events[indexPath.row]
-        //performSegue(withIdentifier: "toDetails", sender: self)
+        let friend = users[indexPath.row]
+        addFriend(friend: friend)
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }

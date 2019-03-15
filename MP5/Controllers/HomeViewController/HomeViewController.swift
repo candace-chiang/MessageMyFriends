@@ -51,7 +51,9 @@ class HomeViewController: UIViewController, MKMapViewDelegate, CLLocationManager
     }
     
     @objc func addFriends(_ sender: UIBarButtonItem) {
-        present(UINavigationController(rootViewController: AddViewController()), animated: true, completion: nil)
+        let addVC = AddViewController()
+        addVC.currUser = user
+        present(UINavigationController(rootViewController: addVC), animated: true, completion: nil)
     }
     
     @objc func logOut(_ sender: UIBarButtonItem) {

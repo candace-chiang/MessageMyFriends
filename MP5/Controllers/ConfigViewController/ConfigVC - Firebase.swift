@@ -19,6 +19,7 @@ extension ConfigViewController {
         } else if chosenImage == nil {
             displayAlert(title: "Error", message: "Did not choose an image.")
         }  else {
+            setUpButton.isUserInteractionEnabled = false
             let ref = Database.database().reference()
             
             let id = ref.childByAutoId().key
@@ -29,7 +30,7 @@ extension ConfigViewController {
             user["firstName"] = self.firstName
             user["lastName"] = self.lastName
             user["email"] = self.userEmail
-            user["friends"] = friends
+            user["userFriends"] = friends
             
             ref.child("users").child(id!).setValue(user)
             
@@ -42,11 +43,13 @@ extension ConfigViewController {
                     print(error)
                     return
                 }
+                print("data put")
                 imageRef.downloadURL { (url, error) in
                     if url == nil {
                         print("URL NO DATA")
                         return
                     }
+                    print("downloaded")
                     self.performSegue(withIdentifier: "toHome", sender: self)
                 }
             }

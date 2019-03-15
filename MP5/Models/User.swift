@@ -14,8 +14,9 @@ class User: NSObject {
     var firstName: String!
     var lastName: String!
     var userEmail: String!
-    var userFriends: [User: Bool]!
+    var userFriends: [String: Bool]!
     var userImage: UIImage!
+    var friends: [User: Bool] = [:]
 //    var userLastLocationUpdate: String!
     
 //    var title: String!
@@ -36,7 +37,7 @@ class User: NSObject {
 //        self.coordinate = CLLocationCoordinate2D(latitude: CLLocationDegrees(exactly: lat)!, longitude: CLLocationDegrees(exactly: lon)!)
 //    }
     
-    init(firstName: String, lastName: String, userImage: UIImage, email: String, UID: String, friends: [User: Bool]) {
+    init(firstName: String, lastName: String, userImage: UIImage, email: String, UID: String, friends: [String: Bool]) {
         self.id = UID
         self.firstName = firstName
         self.lastName = lastName
